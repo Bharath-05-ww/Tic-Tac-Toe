@@ -19,7 +19,7 @@ function getActiveplayer(gameturn) {
 }
 
 function App() {
-  const [players, setPlayers] = useState({ X: "Player 1" }, { O: "Player 2" });
+  const [players, setPlayers] = useState({ X: "Player 1" , O: "Player 2" });
   const [gameturn, setgameturn] = useState([]);
   const activeplayer = getActiveplayer(gameturn);
 
